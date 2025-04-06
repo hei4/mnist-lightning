@@ -1,0 +1,10 @@
+seed: 0
+
+data_module:
+  root: "/home/sika/Datasets"
+  threshold: 0.5
+  sigma: 1.
+
+trainer:
+  fast_dev_run: True   # 1度だけtrainとvalidを実行する
+  max_epochs: 20

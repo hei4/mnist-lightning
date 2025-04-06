@@ -47,7 +47,7 @@ class MutlTaskMnistModule(L.LightningDataModule):
         self.seed = seed
 
         self.loader_kwargs = {
-            "batch_size": 500,
+            "batch_size": 100,
             "num_workers": 4,
             "pin_memory": True,
             "collate_fn": collate_fn

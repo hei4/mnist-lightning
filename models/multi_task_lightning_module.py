@@ -18,7 +18,7 @@ class MultiTaskLightningModule(L.LightningModule):
         super().__init__()
 
         # モデルサマリーで使用する入力形状
-        self.example_input_array = torch.zeros(500, 1, 28, 28)
+        self.example_input_array = torch.zeros(100, 1, 28, 28)
 
         # ハイパーパラメータの保存
         self.save_hyperparameters()
